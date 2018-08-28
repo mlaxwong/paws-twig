@@ -1,0 +1,32 @@
+{
+    "name": "mlaxwong/paws-twig",
+    "description": "Paws twig",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mlax Wong",
+            "email": "mlaxwong@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "paws\\twig\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../../packages/**/*",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "^2.0.15",
+        "yiisoft/yii2-twig": "^2.2",
+        "mlaxwong/paws": "@dev"
+    }
+}
